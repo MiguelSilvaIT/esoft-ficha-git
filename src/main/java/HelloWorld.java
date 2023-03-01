@@ -2,10 +2,12 @@ import javax.swing.*;
 
 public class HelloWorld extends JFrame{
     private JPanel panel1;
+    private JLabel lblMensagem;
 
     public HelloWorld()
     {
         setContentPane(panel1);
+        lblMensagem.setText("O Miguel este aqui");
         pack();
     }
 
